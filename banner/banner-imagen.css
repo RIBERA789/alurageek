@@ -1,0 +1,10 @@
+
+.banner{
+    display: block;
+}
+.banner__imagen{
+    background: url(../img/banner.png) no-repeat center / cover;
+    margin-top: 2rem;
+    height: 440px;
+    width: 100%;
+}

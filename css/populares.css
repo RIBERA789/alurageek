@@ -1,0 +1,131 @@
+.populares{
+    
+    margin-left: 2.5rem;
+    padding: 3rem 2rem;
+
+}
+.populares__card{
+    
+    background: #fdfdfd;
+    display: grid;
+    grid-template-areas: 
+    "card-imagen"
+    "card-base";
+    grid-template-columns: 100%;
+    grid-template-rows: 280px auto;
+
+    margin-left: 1rem;
+    width: calc(18% - 3rem);
+
+}
+
+.populares__card___imagen{
+    grid-area: card-imagen;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.populares__card___base{
+    display: grid;
+    grid-area: card-base;
+    grid-row-gap: .5rem;
+    grid-template-areas: 
+    "card-header"
+    "card-descripcion";
+    grid-template-rows: 50px auto;
+    padding: .5rem;
+
+}
+
+.populares__card___descripcion{
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: card-descripcion;
+    padding: .5rem ;
+    font-weight: 700;
+}
+
+.populares__contenido{
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: contenido;
+    padding: 1rem 0;
+}
+
+.populares__card___titulo{
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+
+    font-size: 20px;
+    color: #464646;
+   
+    
+}
+
+.populares__card___data{
+    color: #808080;
+    font-size: 1rem;
+}
+
+.populares__card___descripcion{
+    width: 176px;
+    height: 19px;
+}
+
+.populares__titulo{
+
+margin-top: 3rem;
+font-style: normal;
+font-weight: 500;
+font-size: 3rem;
+line-height: 38px;
+color: #464646;
+}
+
+
+
+.populares__card___header{
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.populares__header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
+
+.populares__boton{
+    background: transparent;
+    border: none;
+    color: #333333;
+    font-weight: 700;
+    
+    margin-right: 2.5rem;
+    
+   
+}
+
+.populares__icon{
+    margin-top: .25rem;
+   
+    font-family: 'Raleway', sans-serif;
+    
+}
+.populares__card__verp{
+   
+    font-size: 1.5rem;
+    color: #2A7AE4;
+    font-family: 'Raleway', sans-serif;
+}
+
+.populares__card:last-child{
+    margin-right: 0;
+
+}
